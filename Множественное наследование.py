@@ -25,3 +25,4 @@ nissan_car = Nissan()
 
 print("Тип транспортного средства:", nissan_car.vehicle_type)
 print("Цена:", nissan_car.price)
+print(f"Мощность автомобиля: {nissan_car.horse_powers()}")
