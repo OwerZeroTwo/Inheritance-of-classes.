@@ -12,7 +12,7 @@ class Car(Vehicle):
         return 200
 
 
-class Nissan(Car, Vehicle):
+class Nissan(Car):
     def __init__(self):
         super().__init__()
         self.vehicle_type = "Внедорожник"
